@@ -792,6 +792,113 @@ services
 }
 
 
+
+
+/*---------------------------------------------
+*/
+
+
+
+.cabinet .owl-service-item .service-item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: auto;
+  min-height: 0;
+}
+
+.cabinet .owl-service-item .service-item .icon img {
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.cabinet .owl-service-item .owl-stage-outer,
+.cabinet .owl-service-item .owl-stage,
+.cabinet .owl-service-item .item,
+.cabinet .owl-service-item .service-item {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.cabinet .service-item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 0;
+  padding: 0;
+}
+
+.cabinet .service-item .icon img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: none;
+  object-fit: unset;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  display: block;
+}
+
+
+
+.cabinet .item {
+  border-radius: 15px;
+  text-align: center;
+  padding: 50px 30px;
+  margin: 15px;
+  transition: all .3s;
+}
+
+.cabinet .item:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
+}
+
+.cabinet .item .icon {
+  max-width: 75px;
+  margin: 0 auto;
+  min-height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+
+.cabinet .item h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.cabinet .owl-dots {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cabinet .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 0px 4px;
+}
+
+.cabinet .owl-dots .active {
+  background-color: #dc8cdb;
+}
+
+
+
+
+
+
+
+
+
 /*
 ---------------------------------------------
 our courses
