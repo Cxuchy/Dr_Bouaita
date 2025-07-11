@@ -126,8 +126,7 @@
 		}
 	});
 
-
-	/*
+	
 	$('.owl-service-item').owlCarousel({
 		items:4,
 		loop:true,
@@ -147,22 +146,9 @@
 			  }
 		  }
 	  })
-		  */
+		  
 
-	  // Example: Show 2 items at a time for larger images
-// filepath: assets/js/custom.js
-$('.owl-service-item').owlCarousel({
-  items: 1, // Show one image at a time
-  loop: true,
-  margin: 30,
-  nav: true,
-  dots: true,
-  responsive: {
-    0: { items: 1 },
-    768: { items: 1 },
-    1200: { items: 1 }
-  }
-});
+
 
 
 
